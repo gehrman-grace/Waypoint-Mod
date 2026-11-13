@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "waypoint",
+  "version": "1.0.0",
+  "name": "Waypoint",
+  "description": "A standalone waypoint mod: create, edit, enable, teleport to and see waypoints in the world.",
+  "authors": [
+    "Waypoint"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "waypoint.WaypointMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": ">=1.21.11 <1.22"
+  }
+}
